@@ -1,0 +1,123 @@
+body {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(236, 236, 209);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ------------------------- HEADER ------------------------ */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding-top: 0px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.container {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px 0 15px;
+  }
+}
+
+.header-nav {
+  display: flex;
+  column-gap: 40px;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgb(119, 197, 119);
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 176px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-menu-item {
+  display: inline;
+  align-content: center;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+.header-menu-link {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+}
+
+.header-icon {
+}
+
+.header-icon-item {
+}
+
+.icon-instagram {
+  fill: green;
+}
+
+.icon-telegram {
+  fill: green;
+}
