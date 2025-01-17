@@ -46,6 +46,7 @@ img {
   max-width: 100%;
 }
 
+/* -------------------------MOBILE-------------------------- */
 /* ------------------------- HEADER ------------------------ */
 
 .container {
@@ -69,19 +70,21 @@ img {
 
 .header-container {
   display: flex;
+  flex-direction: column;
   padding-top: 36px;
   padding-bottom: 36px;
 }
 
 .header-nav {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -102,20 +105,21 @@ img {
   display: flex;
   gap: 28px;
   padding-top: 18px;
-  padding-left: 24px;
 }
 
-/* ----------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
 
-/* -------------------------------------MAIN-SECTION-1---------------------------------------------- */
+/* -------------------------------------MAIN-SECTION-1--------------------------------*/
+
+@media screen and (min-width: 320px) {
+}
 
 .main-menu-list {
   display: flex;
-  gap: 106px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .main-menu-item {
   display: inline;
   align-content: center;
@@ -133,3 +137,27 @@ img {
 .main-menu-link:focus {
   color: rgb(119, 197, 119);
 }
+
+/* -------------------------------------TABLET---------------------------------- */
+@media screen and (min-width: 768px) {
+  .main-menu-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* -------------------------------------DESKTOP---------------------------------- */
+
+@media screen and (min-width: 1158px) {
+  .main-menu-list {
+    display: flex;
+    gap: 106px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* ------------------------------------------------------------------------------ */
