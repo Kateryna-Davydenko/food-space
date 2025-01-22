@@ -1,0 +1,44 @@
+.bake-text {
+  text-decoration: none;
+  color: black;
+}
+.bake-text:hover,
+.bake-text:focus {
+  color: blueviolet;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-size: 40px;
+}
+
+.text {
+  font-family: "Relaway";
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.text-address {
+  font-size: 25px;
+}
+.text-social {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.text-social:hover,
+.text-social:focus {
+  color: blueviolet;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1158px) {
+}
